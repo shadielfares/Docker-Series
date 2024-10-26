@@ -1,0 +1,19 @@
+version: '1'  # Specify the version of Docker Compose
+
+services:
+  app:
+    container_name: app  # Name of the container
+    restart: always  # Always restart the container if it stops
+    build: .  # Build the Docker image from the Dockerfile in the current directory
+    ports:
+      - "4000:4000"  # Map port 4000 on the host to port 4000 on the container
+    links:
+       - mongo  # Link the app service to the mongo service
+
+  mongo:
+    container_name: mongo  # Name of the container
+    image: mongo  # Use the official MongoDB image from Docker Hub
+    volumes:
+      - ./data:/data/db  # Mount the host directory ./data to /data/db in the container
+    ports:
+      - "27017:27017"  # Map port 27017 on the host to port 27017 on the container
