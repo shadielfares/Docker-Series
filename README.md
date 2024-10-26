@@ -1,8 +1,10 @@
 # 🐋Learning-Docker
 
-Learning Docker in order to become more proficient in Kubernetes to then confidently get Kubernetes deployment running for tutor.
+Description: 
 
-Source: LinkedIn Learning— Docker for Developers 
+Learning Docker in order to become more proficient in Kubernetes to then confidently get Kubernetes deployment running.
+
+**Source**: LinkedIn Learning— Docker for Developers 
 
 **1. Build an Image:**
 
