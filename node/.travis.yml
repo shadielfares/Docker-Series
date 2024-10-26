@@ -3,5 +3,5 @@ sudo: required
     - docker
   
 script:
-  - docker build --t shadielfares/node .
-  - docker images shadielfares
+  - docker build -t shadielfares/node .
+  - docker images shadielfares/node
