@@ -1,0 +1,7 @@
+udo: required
+  services:
+    - docker
+  
+script:
+  - docker build --t shadielfares/node .
+  - docker images shadielfares
