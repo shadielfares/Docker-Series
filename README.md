@@ -52,10 +52,6 @@ Learning Docker in order to become more proficient in Kubernetes to then confide
     - **Explanation:** Downloads a Docker image from Docker Hub.
 
 > Essentially, dynamic data that goes back and forth between the frontend and backend exists in a volume.
-> 
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/cab37465-12db-4026-ab8b-cf3b33e3dd1e/42e429a7-9918-4342-8fa8-d5c01859946e/image.png)
-
 ### Docker Compose
 
 - `docker-compose build`: Builds all the images and instructions set in the Docker Compose file.
@@ -64,8 +60,6 @@ Learning Docker in order to become more proficient in Kubernetes to then confide
 - `docker ps`: Lists all running containers.
 - `docker logs [container_id]`: Displays the logs for a specific container.
 - `docker-compose stop`: Stops all running containers.
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/cab37465-12db-4026-ab8b-cf3b33e3dd1e/77256c79-2627-4aba-b709-6e55ead398cb/image.png)
 
 ### Swarms
 
